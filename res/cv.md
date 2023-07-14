@@ -82,7 +82,7 @@ He was fascinated by nature and robots from a young age, he envisions a future w
 
 ## Programming language proficiency:
 - He is highly proficient in Python.
-- He is versed in Java as that was my first programming language.
+- He is versed in Java as that was his first programming language.
 - He is versed in SQL as He need to use it for data engineering tasks.
 - He is a beginner to all thing frontend, such as HTML, CSS, JavaScript.
 
@@ -102,9 +102,9 @@ He was fascinated by nature and robots from a young age, he envisions a future w
 - Chinese: Native Language
 - Malay: Advanced Listener, Intermediate Speaker, Advanced Reading and Writing
 
-## My hobbies and interests:
+## His hobbies and interests:
 - He is an avid gamer, particularly fond of indie souls-likes and roguelikes.
-- He is a book lover, fantasy and thriller books are my favorite.
+- He is a book lover, fantasy and thriller books are his favorite.
 - He is a casual badminton player.
 
 ## Referrals and others you can call to ask about him:
