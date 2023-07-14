@@ -7,20 +7,20 @@ st.title("Chat Resume")
 
 valid_api_key = False
 
+st.markdown("### Enter OpenAI API key here:")
+openai_api_key = st.text_input("Enter OpenAI API key here", key="langchain_search_api_key_openai", type="password", label_visibility="collapsed")
+if is_api_key_valid(openai_api_key):
+    os.environ["OPENAI_API_KEY"] = openai_api_key
+    valid_api_key = True
+    st.info("OpenAI API key valid.")
+else:
+    st.info("OpenAI API key invalid. Please enter a different API key.")
+
 with st.sidebar:
     st.markdown("# Made by [Steven](https://github.com/stevenong99)")
     st.markdown("A simple chatbot that tells you all about me.\n")
     st.markdown("Source Code: [Here](https://github.com/stevenong99/Voice-Resume)")
     st.markdown("Contact Me: [Here](https://www.linkedin.com/in/ong-teng-kheng-5114431a9/)")
-    st.markdown("# Enter OpenAI API key here:")
-    openai_api_key = st.text_input("Enter OpenAI API key here", key="langchain_search_api_key_openai", type="password", label_visibility="collapsed")
-    if is_api_key_valid(openai_api_key):
-        os.environ["OPENAI_API_KEY"] = openai_api_key
-        valid_api_key = True
-        st.info("OpenAI API key valid.")
-    else:
-        st.info("OpenAI API key invalid. Please enter a different API key.")
-    
     st.markdown("## Some examples questions you could ask:")
     st.markdown('''
                 1. What is his educational background?
