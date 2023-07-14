@@ -19,7 +19,7 @@ else:
 with st.sidebar:
     st.markdown("# Made by [Steven](https://github.com/stevenong99)")
     st.markdown("A simple chatbot that tells you all about me.\n")
-    st.markdown("Source Code: [Here](https://github.com/stevenong99/Voice-Resume)")
+    st.markdown("Source Code: [Here](https://github.com/stevenong99/Chat-Resume)")
     st.markdown("Contact Me: [Here](https://www.linkedin.com/in/ong-teng-kheng-5114431a9/)")
     st.markdown("## Some examples questions you could ask:")
     st.markdown('''
@@ -32,7 +32,7 @@ with st.sidebar:
                 ''')
 
 if "messages" not in st.session_state:
-    st.session_state["messages"] = [{"role": "assistant", "content": "Hello, my name is Cerulean. I am currently acting as Steven's personal assistant. What would you like to know about him?"}]
+    st.session_state["messages"] = [{"role": "assistant", "content": "Hello, I'm Cerulean, Steven's robot assistant. He's not paying me, so let's make this quick. What would you like to know about him?"}]
 
 for msg in st.session_state.messages:
     st.chat_message(msg["role"]).write(msg["content"])
