@@ -1,6 +1,8 @@
 # Chat-Resume
-Access it here: [https://chat-resume.streamlit.app/](https://chat-resume.streamlit.app/)
- My personal assistant for interviews
+
+My personal assistant for interviews
+
+# Try it out [here](https://chat-resume.streamlit.app/)!
 
 # Setup Instructions
 
